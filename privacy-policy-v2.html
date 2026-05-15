@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>樂帶羽臨 隱私權政策</title>
+    <style>
+        :root {
+            --bg: #f7f4ed;
+            --panel: #fffdf8;
+            --text: #1f2933;
+            --muted: #52606d;
+            --accent: #1b6b5c;
+            --border: #d9d4c7;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", "Noto Sans TC", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(27, 107, 92, 0.10), transparent 28%),
+                linear-gradient(180deg, #faf7f0 0%, var(--bg) 100%);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 32px 20px 56px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 28px;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.03);
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 24pt;
+            margin-bottom: 24px;
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 16px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 16pt;
+            margin-top: 32px;
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+        }
+
+        p, li {
+            font-size: 11pt;
+            color: var(--text);
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 10pt;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <h1>樂帶羽臨 隱私權政策</h1>
+            <p>最後更新日期：2026年05月15日</p>
+
+            <p>「樂帶羽臨」（以下簡稱「本應用程式」）是由開發者「SU Z H」（以下簡稱「我們」）所開發的羽球排場管理工具。我們非常重視你的隱私，本政策將說明我們如何蒐集、使用與保護你的個人資料。</p>
+
+            <h2>1. 我們處理哪些資料</h2>
+            <ul>
+                <li><strong>球員與排場資料：</strong> 這是你主動在應用程式內輸入的姓名、性別、等級、季打/零打狀態、備註與排場對戰記錄。這些資料預設儲存於你的裝置本機。</li>
+                <li><strong>裝置資訊：</strong> 包含裝置型號、作業系統版本等系統基礎資訊。</li>
+                <li><strong>廣告與分析資料：</strong> 為了在免費版中提供廣告服務，我們會透過第三方廣告 SDK (Google AdMob) 蒐集裝置識別碼（如 Google 廣告 ID）、IP 位址、裝置資訊與粗略位置資料。</li>
+                <li><strong>交易與訂閱資料：</strong> 當你購買或訂閱 Pro 版時，我們會透過 Google Play 帳單服務處理購買憑證 (Purchase Token) 與訂閱狀態。我們不會、也無法看見或儲存你的信用卡號碼等財務隱私資訊。</li>
+            </ul>
+
+            <h2>2. 資料的使用目的</h2>
+            <p>我們使用資料的唯一目的是提供並改進本應用程式的功能，具體包括：</p>
+            <ul>
+                <li>提供自動化排場與輪轉邏輯。</li>
+                <li>透過語音廣播（本機或 Azure 雲端）播報名單。</li>
+                <li>處理與管理 Pro 版的訂閱權限與購買記錄。</li>
+                <li>在免費版中顯示相關廣告以支撐營運成本。</li>
+            </ul>
+
+            <h2>3. 本機儲存與雲端服務</h2>
+            <p>
+                本應用程式的主要資料（球員名單、排場紀錄等）皆儲存於你的裝置本機中。我們不會主動將這些資料備份到我們的伺服器。
+                如果你使用 Google 系統備份或更換裝置，資料的遷移取決於 Google Play 提供的雲端備份機制。
+            </p>
+
+            <h2>4. Microsoft Azure 語音服務說明</h2>
+            <p>
+                如果你在設定中啟動「Azure 雲端語音」，本應用程式會將「球員姓名」傳送至 Microsoft Azure 的文字轉語音伺服器進行轉換。
+                根據 Microsoft 的政策，這些語音資料僅用於轉換，不會被持久儲存或用於訓練模型。
+            </p>
+
+            <h2>5. 第三方服務</h2>
+            <p>本應用程式使用下列第三方服務，其隱私權受各該服務提供商之政策約束：</p>
+            <ul>
+                <li><strong>Google AdMob：</strong> 用於在應用程式中派發與顯示廣告，其會自動蒐集並處理廣告識別碼。</li>
+                <li><strong>Google Play Billing：</strong> 用於安全地處理應用程式內購買與訂閱服務。</li>
+                <li><strong>Microsoft Azure Speech：</strong> 僅在你主動啟用「雲端語音」時用於語音合成。</li>
+                <li><strong>Android 系統元件：</strong> 包括系統 TTS、媒體播放與本機資料加密儲存機制。</li>
+            </ul>
+
+            <h2>6. 資料分享與出售</h2>
+            <ul>
+                <li>我們不會將你的個人資料出售給第三方。</li>
+                <li>為了維持免費版的營運，我們會允許第三方廣告合作夥伴（如 Google AdMob）透過其 SDK 蒐集裝置的廣告識別碼與互動數據，以提供廣告內容。</li>
+                <li>除上述第三方 SDK 的必要運作外，我們不會主動將你的球員名單或排場私密資料傳送給任何個人或企業。</li>
+            </ul>
+
+            <h2>7. 你的控制權</h2>
+            <ul>
+                <li>你可以在應用程式內隨時修改或刪除球員資料與歷史紀錄。</li>
+                <li>你可以隨時關閉廣告追蹤或停止使用雲端語音。</li>
+                <li>透過清除應用程式資料或解除安裝，即可刪除儲存在裝置上的所有本機資料。</li>
+            </ul>
+
+            <h2>8. 安全性</h2>
+            <p>我們採取多項措施保護你的資料安全：</p>
+            <ul>
+                <li>敏感金鑰（如 Azure API Key）使用 Android Keystore 加密技術保護。</li>
+                <li>本機資料夾受 Android 系統沙盒保護，其他應用程式無法輕易讀取。</li>
+                <li>所有與第三方服務（Google, Microsoft）的連線均採用加密傳輸。</li>
+            </ul>
+
+            <h2>9. 兒童與敏感資料</h2>
+            <p>本應用程式不蒐集醫療、財務、身分證號等敏感資料。請勿在備註欄位輸入敏感個人資訊。</p>
+
+            <h2>10. 政策變更</h2>
+            <p>我們可能會不定期更新本政策。重大變更時，我們將在應用程式內或透過商店更新說明告知用戶。</p>
+
+            <h2>11. 聯絡方式</h2>
+            <p>如果你對本隱私權政策或本應用程式有任何疑問，歡迎透過以下方式聯繫我們：</p>
+            <ul>
+                <li>開發者：樂帶羽臨</li>
+                <li>聯絡電子郵件：badmintonboard.app@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer">
+            &copy; 2026 樂帶羽臨 - 保留所有權利
+        </div>
+    </main>
+</body>
+</html>
